@@ -26,6 +26,7 @@ const Login = ({ classes, history }) => {
   };
   const login = () => {
     // history.push("/landing");
+
     loginService({ phone: username, password });
   };
   return (
